@@ -1,0 +1,328 @@
+body{
+	background: url(../img/back.png);
+}
+
+#geral {
+	background: #f8f8f8;
+	margin: 40px auto;
+	width: 880px;
+	font-family: "Trebuchet MS", arial;
+	box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+
+/*---Cabeça---*/
+
+#header{
+	background-color: :#0066ff;
+	border-bottom: 5px solid #efefef;
+	color:#fff;
+	height:25px;
+	padding: 5px 18px 20px 18px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#21b9ec), to(#0099CC));
+}
+
+#header ul li{
+	display: inline;
+	text-decoration: none;
+	margin-right: 100px;
+}
+
+#header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+#header ul li a:hover{
+	color:#Ffff33;
+}
+#header img{
+	float: right;
+	margin-left: 8px;
+	margin-top: -20px;
+}
+
+/*---section---*/
+
+.section {
+	border-bottom: 2px solid #bbb;
+	padding:38px 0 38px;
+	margin: 0 18px;
+}
+
+.section img{
+	float: left;
+	background: #f8f8f8;
+	border: 3px solid #f1f1f1;
+}
+
+.section img#pic{
+	padding: 4px;
+}
+
+.section h1{
+	font-family: serif;
+	font-size: 40px;
+	color:#000;
+	margin-top: 35px;
+	margin-left: 150px;
+}
+
+.section ul{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.8em;
+	float:right;
+	margin-top: -75px;
+	color:#888;
+	list-style-type: none;
+}
+
+.section ul span{
+	color: #0066cc;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.section .left{
+	width: 202px;
+	float:left;
+}
+
+.section .left p{
+	font-size:14px;
+	padding-right: 20px;
+	margin-top: 10px;
+	color:#888;
+}
+
+.section .left h3{
+	font-size: serif;
+	font-size: 22px;
+	color:#000;
+}
+
+.section .right{
+	float:right;
+	width: 620px;
+}
+
+.section p{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.section h4{
+	font-family: arial, sans-serif;
+	color:#0066cc;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+/*---Top---*/
+
+.cima{
+	height: 120px;
+	padding: 38px 0 50px;
+}
+
+/*---Pessoal---*/
+
+.pessoal{
+	height: 120px;
+}
+.pessoal2{
+	height: 240px;
+}
+
+/*---fotos---*/
+
+.fotos{
+	height: 200px;
+}
+
+.fotos img{
+	border:none;
+	margin:0 10px 10px 0;
+}
+
+/*---Formação---*/
+
+.formacao{
+	height: 280px;
+}
+.formacao3{
+	height: 215px;
+}
+.selec_formacao{
+	border-bottom: 1px solid #dddddd;
+}
+
+.row{
+	padding-bottom: 15px;
+	margin-bottom: 18px;
+	position: relative;
+}
+
+.row h4{
+	font-family: arial, sans-serif;
+	color:#0066cc;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.row h5{
+	font-family: arial, sans-serif;
+	color:#999;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.row a{
+	text-decoration: none;
+	color:#fff;
+	padding: 7px 8px;
+	background:#999;
+	font-size: 13px;
+	position: absolute;
+	top:0;
+	right: 0;
+	cursor:default;
+}
+.row a:hover{
+	background: #bbb;
+}
+
+/*---habilidades---*/
+
+.tecnica{
+	height: 270px;
+}
+
+.tecnica h4{
+	color:#0066cc;
+	font-size: 12px;
+}
+
+.right_right {
+	width:330px;
+	float:right;
+}
+
+.right_left{
+	width: 250px;
+	float:left;
+}
+.right_left span{
+	font-weight: bold;
+	color:#333;
+}
+.tecnica2{
+	height: 230px;
+}
+
+.tecnica h4{
+	color:#000;
+	font-size: 12px;
+}
+
+.right_right {
+	width:330px;
+	float:right;
+}
+
+.right_left{
+	width: 250px;
+	float:left;
+}
+.right_left span{
+	font-weight: bold;
+	color:#333;
+}
+
+/*---barras---*/
+
+.bar{
+	background-color: #111;
+	height: 16px;
+	width: 300px;
+	margin:  0 0 20px;
+}
+
+.bar span{
+	display: inline-block;;
+	height: 100%;
+	background-color: #f60;
+}
+
+.green span{
+	background-color: #6c3;
+}
+.orange span{
+	background-color: #f60;
+}
+.darkorange span{
+	background-color: #cc2900;
+}
+
+/*---slide---*/
+
+.prev, .next{
+		cursor:pointer;
+		position:absolute;
+		top:50%;
+		width:auto;
+		margin-top: -22px;
+		padding:16px;
+		color:white;
+		font-weight:bold;
+		font-size:18px;
+		transition:0.6s ease;
+		border-radius: 0 3px 3px 0;
+		}
+		.next{
+		right:0;
+		border-radius: 3px 0 0 3px;
+		}
+		.prev:hover, .next:hover{
+		background-color:rgba(50,50,50,0.8);
+		}
+
+		.dot{
+		cursor:pointer;
+		height:13px;
+		width:13px;
+		margin:0 12px;
+		background-color:#bbb;
+		border-radius:40%;
+		display:inline-block;
+		transition:background-color 0.6s ease;
+		}
+		.active, .dot:hover{
+		background-color:#717171;
+		}
+		.fade{
+		-webkit-animation-name:fade;
+		-webkit-animation-duration:1.5s;
+		animation-name:fade;
+		animation-duration:1.5s;
+		}
+		@-webkit-keyframes fade{
+		from {opacity: .4}
+		to {opacity: 1}
+		}
+		@keyframes fade{
+		from {opacity: .4}
+		to {opacity: 1}
+		}
+		
+		#caixaslide{
+		max-width: 50%;
+		position: relative;
+		margin: auto;
+		}
